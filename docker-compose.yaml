@@ -8,7 +8,7 @@ services:
     networks:
       - my-network
   my-web:
-    image: 624586968287.dkr.ecr.ap-southeast-7.amazonaws.com/skillana:1.0.1 #image uri or id
+    image: skillana:1.0.1 #image uri or id
     env_file:
       - .env
     networks:
